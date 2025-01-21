@@ -1,0 +1,467 @@
+\documentclass[lang=cn,10pt]{elegantbook}
+
+\title{高等数学同步辅导及习题上册}
+\subtitle{练习题合集及解答}
+
+\author{安云野逸}
+\institute{清疏大学}
+\date{2024.12.11}
+\bioinfo{微信公众号}{安云野逸}
+
+\extrainfo{随遇而安，思维入云，创新狂野，惊才风逸}
+
+\setcounter{tocdepth}{3}
+
+\logo{圆形大手.png}
+\cover{星空.png}
+
+% 本文档命令
+\usepackage{array}
+\newcommand{\ccr}[1]{\makecell{{\color{#1}\rule{1cm}{1cm}}}}
+
+% 修改标题页的橙色带
+% \definecolor{customcolor}{RGB}{32,178,170}
+% \colorlet{coverlinecolor}{customcolor}
+
+\begin{document}
+
+\maketitle
+\frontmatter
+
+\tableofcontents
+
+\mainmatter
+
+\chapter{函数、极限与连续}
+
+
+\section{函数及其初等性质}
+\textbf{练习1.1.1 } ${ }^{\star}$ 设函数 $f(x)$ 满足方程 $f(x)+f\left(\frac{x-1}{x}\right)=1+x, x \neq 0,1$, 求 $f(x)$.
+
+\textbf{答案} $f(x)=\frac{x^3-x^2-1}{2 x(x-1)}$.
+
+
+\textbf{练习 1.1.2} ${ }^{\star}$ 证明 $f(x)=\frac{1}{\sqrt{x}}$ 在 $(0,2)$ 内无界
+
+
+\textbf{练习 1.1.3 }求 $y=f(x)=\ln \left(x+\sqrt{x^2-1}\right)$ 的反函数, 并判断反函数的奇偶性
+
+\textbf{答案}$x=\frac{\mathrm{e}^y+\mathrm{e}^{-y}}{2}$, 偶函数.
+\section{数列极限、函数极限的概念与性质}
+\textbf{练习 1.2.1 }设 $\lim _{x \rightarrow a} \frac{f(x)-1}{(x-a)^2}=-2$. 证明: 在 $x=a$ 的某去心邻域内 $f(x)<1$.
+\section{无穷小与无穷大 极限运算准则}
+\textbf{练习1.3.1} ${ }^{\star}$ 求 $\lim _{n \rightarrow \infty} \sin ^2\left(\pi \sqrt{n^2+n}\right)$.
+
+\textbf{答案}1.
+
+
+\textbf{练习 1.3.2} 下列函数中在 $[1,+\infty)$ 内无界的是（ ）。
+
+
+(A) $f(x)=x^2 \sin \frac{1}{x^2}$
+
+(B) $f(x)=\sin x^2+\frac{\ln ^2 x}{\sqrt{x}}$
+
+(C) $f(x)=x \cos \sqrt{x}+x^2 \mathrm{e}^{-x}$
+
+(D) $f(x)=\frac{\arctan \frac{1}{x}}{x^2}$
+
+\textbf{答案} (C).
+
+
+\textbf{练习1.3.3} 设 $f(x)=\frac{\left(x^3-1\right) \sin x}{\left(x^2+1\right) x}, g(x)=\frac{1}{x} \sin \frac{1}{x}$, 则下列命题正确的个数为 ( ).
+
+
+(1) 对任意 $X>0, f(x)$ 在 $0<|x|<X$ 内有界, 在 $(-\infty,+\infty)(x \neq 0)$ 内无界.
+
+(2) $f(x)$ 在 $(-\infty,+\infty)(x \neq 0)$ 内有界.
+
+(3) $g(x)$ 在 $x=0$ 的去心邻域内无界, 但 $\lim _{x \rightarrow 0} g(x) \neq \infty$.
+
+(4) $\lim _{x \rightarrow 0} g(x)=\infty$.
+
+
+(A) 0
+(B) 1
+(C) 2
+(D) 3
+
+\textbf{答案} (C).
+
+\textbf{练习1.3.4} $x_n=(\sqrt{n})^{(-1)^n}$, 下列结论中正确的是( ).
+
+
+(A) $x_n$ 有界
+
+(B) $n \rightarrow \infty$ 时， $x_n$ 有极限
+
+(C) $x_n$ 无界
+
+(D) $n \rightarrow \infty$ 时， $x_n$ 为无穷大性
+
+\textbf{答案} (C).
+
+
+\textbf{练习 1.3 .5} 求下列极限：
+
+
+(1) $\lim _{x \rightarrow 0}\left(\frac{2+\mathrm{e}^{1 / x}}{1+\mathrm{e}^{3 / x}}+\frac{\arcsin x}{\sqrt{x^2}}\right)$;
+
+(2) $\lim _{n \rightarrow \infty} \frac{1+x}{1+x^{2 n}}$;
+
+(3) $\lim _{x \rightarrow-\infty} x\left(\sqrt{x^2+2022}+x\right)$.
+
+
+
+\textbf{答案}（1） 1 ；（2） $\left\{\begin{array}{cc}1+x, & |x|<1, \\ 1, & x=1, \\ 0, & x=-1, \\ 0, & |x|>1 ;\end{array}\right.$ (3) -1011 .
+\section{极限存在准则}
+\textbf{练习 1.4.1}求下列极限：
+
+（1）$\lim_{n\rightarrow\infty}\left(2^n+3^n+4^n\right)^{\frac{1}{n}};$
+
+（2）$\lim_{n\rightarrow\infty}\sqrt[n]{\pi^n+\left(\frac{22}{7}\right)^n+\left(\frac{355}{113}\right)^n}.$
+
+\textbf{答案} (1) 4; (2) $\frac{22}{7}$.
+
+
+\textbf{练习 1.4.2} 求下列极限:
+
+
+（1）$\lim_{n\rightarrow\infty} \sum_{k=1}^{n} \frac{n+k}{n^2+k};$
+
+（2）$\lim_{n\rightarrow\infty} \sum_{k=n^2}^{(n+1)^2} \frac{1}{\sqrt{k}};$
+
+（3） $\lim_{n\rightarrow\infty} \sum_{k=1}^{n} (n^k+1)^{-\frac{1}{k}}.$
+
+
+\textbf{答案}(1) $\frac{3}{2}$; (2) 2，$\sum_{k=n^2}^{(n+1)^2} \frac{1}{\sqrt{k}}$ 共 $2n+2$ 项; (3) 1，根据 $n^k < n^k+1 < (n+1)^k$ 进行放缩.
+
+
+\textbf{练习 1.4.3}${ }^{\star}$设 $a > 0, x_1 > 0$，定义 $x_{n+1} = \frac{1}{4} \left( 3x_n + \frac{a}{x_n^3} \right), n = 1, 2, \cdots$，求 $\lim_{n\rightarrow\infty} x_n$。
+
+提示 本题为上例的拓展。可先利用下列均值不等式证明 $\{x_n\}$ 有下界。 $\lim_{n\rightarrow\infty} x_n = \sqrt[4]{a}$。
+
+\[
+x_{n+1} = \frac{1}{4} \left( x_n + x_n + x_n + \frac{a}{x_n^3} \right) \geq 4 \sqrt[4]{x_n \cdot x_n \cdot x_n \cdot \frac{a}{x_n^3}} = \sqrt[4]{a}.
+\]
+
+
+\textbf{练习 1.4.4}设 $a_n = \sqrt{6 + \sqrt{6 + \cdots + \sqrt{6}}}$（$n$重），证明：$\{a_n\}$ 收敛，并求 $\lim_{n\rightarrow\infty} a_n$。
+
+\textbf{答案} $\lim_{n\rightarrow\infty} a_n = 3$。
+
+
+\textbf{练习 1.4.5}设 $x_1 = \sqrt{2}, x_2 = \sqrt{2\sqrt{2}}, \cdots, x_n = \sqrt{2\sqrt{2}\cdots\sqrt{2}}$（$n$个$\sqrt{2}$），证明 $x_n$ 的极限存在，并求 $\lim_{n\rightarrow\infty} x_n$。
+
+\textbf{答案}$\lim_{n\rightarrow\infty} x_n = 2$。
+
+
+\textbf{练习 1.4.6}对两个初值 $a_1 = \frac{1}{2}, 1$，$a_{n+1} = \sqrt{\frac{a_n}{1 + a_n}}$ ($n \geq 1$)，证明：$\{a_n\}$ 收敛并求其极限。
+
+\textbf{答案}$\lim_{n\rightarrow\infty} a_n = \frac{\sqrt{5} - 1}{2}$.
+
+
+\textbf{练习 1.4.7} 计算下列极限:（1） $\lim_{x\rightarrow 0}\left(e^{2x}+\sin x\right)^{\tan x}$;（2）$\lim_{x\rightarrow 0}\left(2^x+x\right)^{\arcsin 2x}$;（3） $\lim_{x\rightarrow 0}\left(1-2x^2\right)^{1-\sqrt{1-x^2}}$;（4）$\lim_{x\rightarrow 0}\left(\frac{a^x+b^x}{2}\right)^{\frac{1}{x}}$ ($a>0, b>0$);（5）$\lim_{n\rightarrow\infty}\left[1+\sin\left(\pi\sqrt{1+4n^2}\right)\right]^n$.
+
+\textbf{答案}（1）$e^3$;（2）$\sqrt{2e}$;（3）$e^{-4}$;（4）$\sqrt{ab}$;（5）$e^4$, 参照例 1.3.1.
+
+
+\textbf{练习 1.4.8}设 $\lim_{x\rightarrow 0} \frac{\ln\left[1+f(x)\right]}{\sin x} = A$ ($a > 0, a \neq 1$)，求 $\lim_{x\rightarrow 0} \left[1+\frac{f(x)}{x}\right]^{\frac{1}{x}}$。
+
+
+\textbf{答案}$a^A$。
+\section{无穷小的比较与等价无穷小代换}
+\textbf{练习 1.5.1}设 $x \rightarrow 0$ 时，$ax^2 + bx + c - \cos x$ 是 $x^2$ 的高阶无穷小，求常数 $a, b, c$。
+
+\textbf{答案}$a = -\frac{1}{2}, b = 0$.
+
+
+\textbf{练习 1.5.2}设 $x \rightarrow 0$ 时，$e^{x\cos x^2} - e^x$ 与 $x^n$ 是同阶无穷小，则 $n = ()$。
+
+(A) 5
+
+(B) 4
+
+(C) $\frac{5}{2}$
+
+(D) 2
+
+\textbf{答案}（A）
+
+
+\textbf{练习 1.5.3}设 $x \rightarrow 0$ 时，$\ln(\cos ax) \sim -2x^b$ ($a > 0$)，则 $a = \underline{\quad}$，$b = \underline{\quad}$。
+
+\textbf{答案}$a = 2, b = 2$.
+
+
+\textbf{练习 1.5.4}${ }^{\star}$当 $x \rightarrow 0$ 时，$(3 + 2\tan x)^x - 3^x$ 是 $3\sin^2 x + x^3 \cos \frac{1}{x}$ 的(  ).
+(A)高阶无穷小
+
+(B)]低阶无穷小
+
+(C)等价无穷小
+
+(D)同阶非等价无穷小
+
+\textbf{答案}（D）
+
+
+\textbf{练习 1.5.5}${ }^{\star}$求下列极限：
+
+（1） $\lim_{x\rightarrow 0^+} \frac{1-\sqrt{\cos x}}{x(1-\cos\sqrt{x})}$;
+
+（2）$\lim_{x\rightarrow 0} \frac{e^{x^2}-\cos x}{\arctan^2 x}$;
+
+（3） $\lim_{x\rightarrow 1} (1-x)\tan\left(\frac{\pi}{2}x\right)$;
+
+（4）$\lim_{x\rightarrow 0} \frac{\ln(e^{2x}+x)}{x}$;
+
+（5）$\lim_{x\rightarrow 0} \frac{x^2}{\sqrt{1+x\sin x}-\sqrt{\cos x}}$.
+
+\textbf{答案}（1）$\frac{1}{2}$;（2） $\frac{3}{2}$;（3）$\frac{2}{\pi}$;（4）$3$;（5） $\frac{4}{3}$.
+
+
+\textbf{练习 1.5.6}${ }^{\star}$求下列极限：
+
+（1）$\lim_{x\rightarrow 1} \frac{\sin^2 \pi x}{(x-1)\ln x}$;
+
+（2）$\lim_{x\rightarrow 1} \frac{(1-\sqrt{x})(1-\sqrt[3]{x})\cdots(1-\sqrt[n]{x})}{(1-x)^{n-1}}$ ($n \in \mathbb{Z}^+$);
+
+（3）$\lim_{x\rightarrow 0} \frac{\sqrt[4]{\frac{1+x}{1-x}} \cdot \sqrt[6]{\frac{1+2x}{1-2x}} \cdots \sqrt[2n]{\frac{1+nx}{1-nx}} - 1}{3\pi \arctan x - (x^2 + 1) \arctan^3 x}$ ($n \in \mathbb{Z}^+$).
+
+\textbf{答案}（1）$\pi^2$;（2）$\frac{1}{n!}$;（3）$\frac{n}{3\pi}$，分母提取后代换，分子化 $e$ 后分别代换.
+
+
+\textbf{练习1.5.7}${ }^{\star}$已知 $\lim_{x\rightarrow +\infty} \left( \sqrt{x^2 + ax + b} + cx + d \right) = 0$，试确定 $a, b, c, d$ 之间的关系.
+
+\textbf{答案} $a + 2d = 0$, $c = -1$, $b, d$ 任意.
+\section{函数连续的概念与连续函数的性质}
+\textbf{练习 1.6.1 }设函数
+\[
+f(x) = 
+\begin{cases} 
+\frac{\ln(1+x)}{\arctan x} + a, & x > 0, \\
+0, & x = 0, \\
+\frac{\sqrt{1+x} - \sqrt{1-x}}{e^{2x} - 1} - b, & -1 \leq x < 0
+\end{cases}
+\]
+在 \(x = 0\) 处连续，求常数 \(a, b\)。
+
+\textbf{答案}$a=-1,b=\frac{1}{2}$. 
+
+
+\textbf{练习 1.6.2} 若函数
+\[
+f(x) = 
+\begin{cases} 
+\frac{\cos\sqrt{x} - 1}{ax}, & x > 0, \\
+b, & x \leq 0
+\end{cases}
+\]
+在 \(x = 0\) 处连续，则 ( ).
+
+(A) \(ab = \frac{1}{2}\) 
+
+(B) \(ab = -\frac{1}{2}\) 
+
+(C) \(ab = 0\) 
+
+(D) \(ab = 2\)
+
+\textbf{答案} (B).
+
+
+\textbf{练习 1.6.3} 设 \(f(x)\) 连续，\(\lim_{x \to 0} \frac{1 - \cos[xf(x)]}{(e^{x^2} - 1)f(x)} = 1\)，则 \(f(0) = \).
+
+\textbf{答案} 2.
+
+
+\textbf{练习 1.6.4} 讨论 \( y = \lim_{n \to \infty} \sqrt[n]{1 + x^{2n}} \) 的连续性.
+
+\textbf{答案} \( y \) 在 \( (-\infty, +\infty) \) 内连续.
+
+
+\textbf{练习 1.6.5 }试证明方程 \( x - a\sin x = b \) 至少存在一正根 \( \xi \in (0, a+b] \)，其中常数 \( a, b \) 满足 \( 0 < a < 1 \)，\( b > 0 \)。
+
+
+\textbf{练习 1.6.6} 设 $f(x)$ 在 $[0,2]$ 上连续，且 $f(0) + 2f(1) + 3f(2) = 6$。证明：存在 $c \in [0,2]$，使得 $f(c) = 1$。
+
+
+\textbf{练习 1.6.7} 证明：若 $f(x)$ 在 $[a,b]$ 上连续，$a < x_1 < x_2 < \cdots < x_n < b$，则在 $[x_1, x_n]$ 上必存在 $\xi$，使得
+\[
+f(\xi) = \frac{f(x_1) + f(x_2) + \cdots + f(x_n)}{n}.
+\]
+\section{间断点及分类}
+\textbf{练习1.7.1}设 $f(x) = \lim_{n \to \infty} \frac{x^2 + e^{n(1-x)}}{2 + e^{n(1-x)}}$，求 $f(x)$ 及其间断点，并判断其类型。
+
+\textbf{答案}$x=1$ 为 $f(x)$ 的跳跃间断点。
+
+
+\textbf{练习 1.7.2} 求 $f(x) = e^{\tan x}$ 的间断点及类型。
+
+\textbf{答案} $x = 0$ 为可去间断点；$x = k\pi \, (k \in \mathbb{Z}, k \neq 0)$ 为无穷间断点；$x = k\pi + \frac{\pi}{2} \, (k \in \mathbb{Z})$ 为可去间断点。
+
+
+\textbf{练习 1.7.3} ${}^{\star }$求 \[f(x) = \begin{cases} 
+\frac{x(x+2)}{\sin \pi x}, & x < 0, \\
+\frac{x}{x^2 - 1}, & x \geq 0 
+\end{cases}\] 的间断点，并对其进行分类。
+
+\textbf{答案} $x = -2$ 为可去间断点；$x = k \, (k = -1, -3, -4, \ldots)$ 为无穷间断点；$x = 1$ 为无穷间断点；$x = 0$ 为跳跃间断点。
+
+
+\textbf{练习 1.7.4} 设函数 $f(x) = \frac{1}{x(e^{x-1} - 1)}$，则 ( ).
+
+(A) $x = 0, 1$ 都是 $f(x)$ 的第一类间断点
+
+(B) $x = 0, 1$ 都是 $f(x)$ 的第二类间断点
+
+(C) $x = 0$ 是 $f(x)$ 的第一类间断点, $x = 1$ 是 $f(x)$ 的第二类间断点
+
+(D) $x = 0$ 是 $f(x)$ 的第二类间断点, $x = 1$ 是 $f(x)$ 的第一类间断点
+
+\textbf{答案} $x = 0$ 为第二类无穷间断点；$x = 1$ 为第一类跳跃间断点.
+
+
+\textbf{练习 1.7.5*} 求 $f(x) = e^{\frac{1}{x-2}} \cdot \frac{\ln|x|}{x^2 - 1}$ 的间断点并判断类型。
+
+\textbf{答案} $x = 0$ 为无穷间断点；$x = \pm 1$ 为可去间断点；$x = 2$ 为无穷间断点。
+\chapter{一元函数分析学}
+
+
+\section{导数的概念}
+\textbf{练习 2.1.1} 设 $f'(x_0)$ 存在，求 $\lim_{\Delta x \to 0} \frac{f(x_0 + \alpha \Delta x) - f(x_0 - \beta \Delta x)}{\Delta x}$.
+
+\textbf{答案} $(\alpha + \beta) f'(x_0)$.
+
+
+\textbf{练习 2.1.2} 设 $f(x)$ 连续，且 $\lim_{x \to 0} \frac{f(x) - 2}{\sin x} = 1$，求 $f'(0)$.
+
+\textbf{答案} $f'(0) = 1$.
+\section{导数的运算法则}
+
+\section{隐函数、由参数方程确定的函数的导数}
+
+
+
+\section{函数的微分}
+
+
+
+
+
+\chapter{微分中值定理与导数的应用}
+\section{微分中值定理}
+\textbf{练习 3.1.1} 设 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，且 $f(a) = f(b) = 0$。证明：
+
+(1) 存在 $\xi \in (a,b)$，使得 $\xi f'(\xi) + f(\xi) = 0$；
+
+(2) 存在 $\eta \in (a,b)$，使得 $f'(\eta) = 2\eta f(\eta)$。
+
+
+\textbf{练习 3.1.2*} 设 $f(x)$ 在 $[1,2]$ 上连续，在 $(1,2)$ 内可导，且 $f(2) = 2$, $f(1) = \frac{1}{2}$。证明：存在 $\xi \in (1,2)$，使得 $f'(\xi) = \frac{2f(\xi)}{\xi}$。
+\section{洛必达法则与未定式极限}
+
+
+\section{泰勒公式}
+
+\section{函数的单调性及应用}
+
+\section{函数的极值与最值}
+
+\section{曲线的凹凸性与拐点}
+
+\section{函数性态的描述与函数零点问题}
+
+\section{曲率}
+
+\chapter{一元函数积分学}
+\section{定积分的概念与性质}
+\textbf{练习 4.1.1} 求极限 $\lim_{n \to \infty} \frac{1}{n} \left( \sqrt{1 + \cos \frac{\pi}{n}} + \sqrt{1 + \cos \frac{2\pi}{n}} + \cdots + \sqrt{1 + \cos \frac{n\pi}{n}} \right)$.
+
+\textbf{答案} $\frac{2\sqrt{2}}{\pi}$.
+
+
+
+\textbf{练习 4.1.2*} 求极限 $\lim_{n \to \infty} \sum_{k=1}^{n} \frac{k}{n^2} \ln \left( 1 + \frac{k}{n} \right)$.
+
+\textbf{答案} $\frac{1}{4}$.
+\section{变上限积分函数及其导数}
+\section{积分的计算}
+\section{定积分的特定结论及综合题目与证明题}
+\section{反常积分}
+\section{分部积分的快速积分法}
+
+
+
+
+
+\chapter{定积分的应用}
+\section{平面图形的面积}
+ \textbf{练习 5.1.1} 曲线 $y = -x^3 + x^2 + 2x$ 与 $x$ 轴所围成图形的面积 $A = \underline{\hspace{2cm}}$.
+
+\textbf{答案} $\frac{37}{12}$.
+\section{体积}
+\section{平面曲线的弧长 旋转体的侧面积}
+\section{定积分的物理应用}
+
+
+
+
+
+\chapter{常微分方程}
+\section{一阶微分方程及其应用}
+\textbf{练习 6.1.1} 求下列微分方程的通解：
+
+(1) $\frac{dy}{dx} = 1 + x + y^2 + xy^2$;
+
+(2) $y' + \sin\frac{x+y}{2} = \sin\frac{x-y}{2}$;
+
+(3) $\frac{dy}{dx} = \frac{1}{(x+y)^2}$.
+
+\textbf{答案}
+
+(1) $\arctan y = x + \frac{1}{2}x^2 + C$;
+
+(2) $\ln \left| \csc \frac{y}{2} - \cot \frac{y}{2} \right| + 2\sin \frac{x}{2} = C$;
+
+(3) $y - \arctan(x+y) = C$.
+
+\section{可降阶的二阶微分方程及其应用}
+\section{二阶线性微分方程及其应用}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\chapter*{习题个人解答}
+\addcontentsline{toc}{chapter}{习题个人解答}
+\markboth{习题个人解答}{习题个人解答}
+\nocite{*}
+
+
+
+
+
+
+
+
+
+
+\end{document}
